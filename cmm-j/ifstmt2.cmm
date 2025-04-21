@@ -1,0 +1,12 @@
+main{
+  if 100 / 2 < 18 then {
+    write 100;
+  } else {
+    write 50;
+    if 50 / 2 < 18 then
+      write 75;
+    else {
+      write 25;
+    } endif;
+  } endif;
+}

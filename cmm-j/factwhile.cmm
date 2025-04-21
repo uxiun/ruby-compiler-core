@@ -1,0 +1,13 @@
+main{
+  var x, res;
+
+  res := 1;
+  x := 1;
+
+  read x;
+  while x > 0 do {
+    res := res * x;
+    x := x - 1;
+  }
+  write res;
+}

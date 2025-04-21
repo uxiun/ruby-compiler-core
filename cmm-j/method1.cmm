@@ -1,0 +1,7 @@
+add3(x, y, z){
+  return x+y+z;
+}
+
+main{
+  write add3(5, 7, 9);
+}

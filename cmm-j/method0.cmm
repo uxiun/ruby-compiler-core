@@ -1,0 +1,7 @@
+met(x){
+  return x;
+}
+
+main{
+  write met(5);
+}

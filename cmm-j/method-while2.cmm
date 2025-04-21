@@ -1,0 +1,13 @@
+power(x){
+  return x*x;
+}
+
+main{
+  var x,y;
+
+  x := 2;
+  while x < 1000 do {
+    write x;
+    x := power(x);
+  }
+}
